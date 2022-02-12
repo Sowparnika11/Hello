@@ -11,6 +11,6 @@ if __name__ == '__main__':
     input_word = "sowparnika"
     result = check_palindrome(input_word.lower())
     if result :
-        print ("Given word is a palindrome")
+        print ("Given word {} is a palindrome",input_word)
     else:
-        print ("Given word is not a palindrome")
+        print ("Given word {} is not a palindrome",input_word)
