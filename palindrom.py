@@ -8,7 +8,7 @@ def check_palindrome(data):
 
 
 if __name__ == '__main__':
-    input_word = "sowparnika"
+    input_word = "sowparnikaSudheesh"
     result = check_palindrome(input_word.lower())
     if result :
         print ("Given word {} is a palindrome".format(input_word))
