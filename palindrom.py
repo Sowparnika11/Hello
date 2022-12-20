@@ -13,4 +13,4 @@ if __name__ == '__main__':
     if result :
         print ("Given word {} is a palindrome".format(input_word))
     else:
-        print ("Given word {} is not a palindrome..".format(input_word))
+        print ("Given word {} is not a palindrome.".format(input_word))
